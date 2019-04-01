@@ -1,0 +1,17 @@
+<h3>{{title}}</h3>
+<a routerLink="/add-product"><button class="btn btn-secondary btn" > Add Product</button></a>
+<ul class="list-group">
+</ul>
+<table class="table">
+  <td>ID</td>
+  <td>Name</td>
+  <td>Price</td>
+  <td>Stock</td>
+  <tr *ngFor='let product of products'>
+   <td>{{product.id}}</td>
+   <td>{{product.name}}</td>
+   <td>{{product.price}}</td>
+   <td>{{product.stock}}</td>
+   <button type="button" class="btn btn-secondary btn-sm" (click)="deleteProduct(product)">Delete</button>
+  </tr>
+</table>

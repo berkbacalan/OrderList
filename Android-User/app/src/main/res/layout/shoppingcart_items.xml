@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/rowName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="Awesome item"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:gravity="right">
+
+        <ImageButton
+            android:id="@+id/decreaseNumber"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_remove_black_24dp"/>
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3dp"
+            android:text="1"/>
+
+        <ImageButton
+            android:id="@+id/increaseNumber"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_add_black_24dp"
+            android:text="Order"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

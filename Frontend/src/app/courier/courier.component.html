@@ -1,0 +1,113 @@
+<agm-map  [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  <agm-marker [latitude]=39.903933 [longitude]=32.809914></agm-marker>
+  <agm-marker [latitude]=39.913731 [longitude]=32.783549></agm-marker>
+  <agm-marker [latitude]=39.881612 [longitude]=32.757214></agm-marker>
+  <agm-circle [latitude]="lat" [longitude]="lng" 
+      [radius]="3000"
+      [fillColor]="'blue'"
+      [fillOpacity]="0.15"
+      [circleDraggable]="false"
+      [editable]="false">
+  </agm-circle>
+</agm-map>
+<h3>{{title}}</h3>
+<table class="table">
+  <td>Name</td>
+  <td>Distance</td>
+  <td>Price</td>
+  <tr *ngFor='let order of orders'>
+   <td>{{orders.name}}</td>
+   <td>{{orders.distance}}</td>
+   <td>{{orders.price}}</td>>
+   <button type="button" class="btn btn-secondary btn-sm">Select</button>
+  </tr>
+  <tr>
+  <td>Berk Bacalan</td>
+  <td>2.1 km</td>
+  <td>45 TL</td>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Submit
+  </button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Order Info</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Berk Bacalan
+          45 TL
+         Muhsin Yazıcıoğlu Caddesi Samed Sitesi No:15/13 Çankaya/Ankara
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </tr>
+  <tr>
+  <td>Utku Çuhadaroğlu</td>
+  <td>16 km</td>
+  <td>78.25 TL</td>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+    Submit
+  </button>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Order Info</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Utku Çuhadaroğlu
+          78.25 TL,No payment done.
+          Bilkent Bulvarı.No:44 Bilkent/Ankara
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </tr>
+  <tr>
+  <td>Burak Durgunsu</td>
+  <td>7 km</td>
+  <td>34.8 TL</td>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+    Submit
+  </button>
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Order Info</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Burak Durgunsu
+          26.10 TL,Payment already done.
+          Mustafa Kemal Mah.2180.Cad.No:78/3 Çankaya/Ankara
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</tr>
+</table>
+
