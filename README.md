@@ -7,15 +7,7 @@ Generel Information
 OrderList developed as senior project(BIL 496) at Tobb University of Economy and Technology.
 Project developed by Return team.
 
-Members:
-
-Burak Durgunsu
-
 Baran Berk Bacalan
-
-Canberk Sakarya
-
-Utku Çuhadaroğlu
 
 OrderList has been designed to facilitate grocery shopping.
 The main purpose is to obtain the desired list from the nearest convenience store.
