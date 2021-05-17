@@ -7,6 +7,8 @@ Generel Information
 OrderList developed as senior project(BIL 496) at Tobb University of Economy and Technology.
 Project developed by Return team.
 
+Demo Site: https://floating-hollows-92820.herokuapp.com/
+
 Baran Berk Bacalan
 
 OrderList has been designed to facilitate grocery shopping.
