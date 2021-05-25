@@ -1,8 +1,8 @@
 ﻿# RETURN #
 
-OrderList
+## OrderList
 
-Generel Information
+### Generel Information
 
 OrderList developed as senior project(BIL 496) at Tobb University of Economy and Technology.
 Project developed by Return team.
@@ -15,7 +15,7 @@ The main purpose is to obtain the desired list from the nearest convenience stor
 On the other hand, carriers can also introduce themselves in the system by delivering the prepared orders.
 Project supported on web and android devices.
 
-Features
+### Features
 
 -As a user,I would like to able to set a shopping list and order via web and android devices.
 
