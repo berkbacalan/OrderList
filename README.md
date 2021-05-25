@@ -5,10 +5,10 @@
 ### Generel Information
 
 OrderList developed as senior project(BIL 496) at Tobb University of Economy and Technology.
-Project developed by Return team.
-
 
 Baran Berk Bacalan
+
+### Description
 
 OrderList has been designed to facilitate grocery shopping.
 The main purpose is to obtain the desired list from the nearest convenience store.
